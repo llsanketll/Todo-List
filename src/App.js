@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import LightsOut from './LightsOut';
-export default class App extends Component {
+import TodoList from './TodoList';
 
+export default class App extends Component {
     render() {
         return (
             <div className="App">
-
-            <LightsOut />
-
+                <h1> Todo List </h1>
+                <TodoList />
             </div>
         )
     }
