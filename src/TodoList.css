@@ -62,21 +62,22 @@
   cursor: pointer;
 }
 
-.TodoComponent form{
+.TodoComponent form {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.TodoComponent form input{
+.TodoComponent form input {
   border: none;
   background-color: var(--sFont);
   color: var(--bg);
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
-.TodoComponent form button{
+.TodoComponent form button {
   color: var(--sFont);
   background-color: var(--pFont);
   border: none;
@@ -107,7 +108,7 @@
   color: transparent;
   background: transparent;
   border-radius: 50%;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid transparent;
   transition: 0.5s ease;
 }
@@ -131,7 +132,7 @@
   color: var(--sFont);
   margin: 1rem 1rem;
   border: 1px solid var(--pFont);
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   font-size: 1.5rem;
 }
 
